@@ -2278,6 +2278,7 @@ export async function serverBuild({
                       {
                         type: 'header',
                         key: rscPrefetchHeader,
+                        value: '1',
                       },
                     ],
                     dest: path.posix.join(
@@ -2299,6 +2300,7 @@ export async function serverBuild({
                       {
                         type: 'header',
                         key: rscPrefetchHeader,
+                        value: '1',
                       },
                     ],
                     dest: path.posix.join(
