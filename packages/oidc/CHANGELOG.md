@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- Added refresh token support ([#13549](https://github.com/vercel/vercel/pull/13549))
+- Added refresh token support ([#13608](https://github.com/vercel/vercel/pull/13608))
 - - Optionally pass "true" to getVercelOidcToken() to prompt the function to refresh the token if it is expired or missing
 - - Depends on vercel cli being installed and properly linked with the project
 
